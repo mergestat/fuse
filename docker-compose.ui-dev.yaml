@@ -15,7 +15,7 @@ services:
       - "--schema"
       - "mergestat,public"
       - "--append-plugins"
-      - "@graphile-contrib/pg-simplify-inflector"
+      - "@graphile-contrib/pg-simplify-inflector,/graphql/exec-sql/index.js"
       - "-o"
       - "--subscriptions"
       - "--watch"

@@ -1,0 +1,9 @@
+{
+    "name": "@mergestat/pg-exec-sql",
+    "version": "0.0.1",
+    "description": "Graphile plugin for executing raw SQL queries and returning results",
+    "main": "index.js",
+    "dependencies": {
+        "graphile-utils": "^4.12.3"
+    }
+}
